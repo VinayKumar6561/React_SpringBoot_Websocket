@@ -1,0 +1,21 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Fill full screen and allow Flexbox */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Center login form below the navbar */
+.center-wrapper {
+  flex: 1; /* Takes all remaining height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2; /* Optional: light background */
+}
